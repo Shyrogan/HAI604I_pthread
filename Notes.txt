@@ -1,0 +1,8 @@
+- Initialisation
+
+Toujours travailler avec les pointeurs lorsqu'on initialise les variables.
+Si on créer une variable local est est libérée et son pointeur est érronée pendant que le thread travaille.
+
+- Cond
+
+Bien penser à unlock chez TOUT LE MONDE le mutex.
